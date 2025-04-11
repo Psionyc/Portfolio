@@ -1,17 +1,17 @@
 {
   "title": "FAQ",
-  "subtitle": "Things I get asked a lot",
+  "subtitle": "Frequently Asked Questions",
   "faqQuestions": [
     {
       "title": "Services",
       "questions": [
         {
           "label": "What services do you offer?",
-          "content": "I offer a range of services including web design, web development, branding, and photography. I can also help with SEO and social media marketing."
+          "content": "I specialize in fullstack and Web3 development, offering decentralized web applications, smart contract development, and UI/UX design with Figma. I also explore beginner videography to creatively capture unique moments."
         },
         {
           "label": "Can you teach me how to make a website?",
-          "content": "I don't offer courses at the moment, but I can recommend resources and advice to help you get the most out of your learning."
+          "content": "While I don’t run formal courses, I’m happy to share tips, resources, and advice to help you start your own web development journey."
         }
       ]
     },
@@ -20,19 +20,19 @@
       "questions": [
         {
           "label": "How much does a project cost?",
-          "content": "The cost of a project depends on many factors, such as the size of the project, the features, the development time, etc. The initial amount of my web services starts at 2000€, with an average between 3000€ and 10000€. For any other design or consulting service, I usually charge 450€ per day."
+          "content": "The cost varies depending on complexity, features, and development time. My fullstack and decentralized solutions typically start at 2000€, with averages ranging between 3000€ and 10000€. For design or consulting projects, my rate is generally 450€ per day."
         },
         {
           "label": "How does payment work for a project?",
-          "content": "I ask for a 40% deposit before starting a project, and the remaining 60% after successful delivery. I accept payments by bank transfer, PayPal, etc..."
+          "content": "I require a 40% deposit before starting a project, with the remaining 60% payable upon successful delivery. Payment options include bank transfer, PayPal, and other secure methods."
         },
         {
           "label": "How long does a project take?",
-          "content": "It's difficult to give an exact estimate, as each project is different, but the majority of my past work has taken between 2 weeks and 2 months."
+          "content": "Project timelines depend on scope and requirements. Most projects I've worked on have taken anywhere from 2 weeks to 2 months."
         },
         {
           "label": "Do you offer discounts?",
-          "content": "I offer a 15% discount for students and non-profit organizations."
+          "content": "Yes, I offer a 15% discount for students and non-profit organizations."
         }
       ]
     },
@@ -40,12 +40,12 @@
       "title": "Personal",
       "questions": [
         {
-          "label": "What do you enjoy most about this work?",
-          "content": "I love learning new things and being able to create just about anything from scratch, creating beautiful things that people will use and appreciate."
+          "label": "What do you enjoy most about your work?",
+          "content": "I thrive on merging technology with creativity, building innovative decentralized solutions, and watching my ideas come to life. Every project is a chance to learn something new and push boundaries."
         },
         {
           "label": "Hobbies outside of work?",
-          "content": "I love what I do, so I usually spend a lot of time working on personal projects, photography, etc. I'm also a big sports fan. I often go to the gym and I recently started climbing!"
+          "content": "I'm a passionate racing and football fan who loves staying active at the gym. I also enjoy dabbling in videography to capture the excitement of races and matches, even though I'm still a beginner in that area."
         }
       ]
     }

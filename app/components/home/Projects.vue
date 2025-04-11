@@ -5,7 +5,7 @@ const { locale } = useI18n()
 const localePath = useLocalePath()
 
 const { data: projects } = await useAsyncData('projects', async () => {
-  const collection = ('projects_' + locale.value) as keyof Collections
+  const collection = (`projects_${locale.value}`) as keyof Collections
   return await queryCollection(collection).all() as Collections['projects_en'][] | Collections['projects_fr'][]
 }, {
   watch: [locale],
@@ -19,7 +19,7 @@ const { data: projects } = await useAsyncData('projects', async () => {
     </h3>
     <div class="flex w-full flex-col gap-4">
       <NuxtLink
-        v-for="project in projects?.filter((work) => work.featured)"
+        v-for="project in projects"
         :key="project.name"
         role="link"
         class="flex cursor-pointer items-center gap-2 rounded-lg px-4 py-2 hover:bg-neutral-900"
