@@ -57,7 +57,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      resend: !!process.env.NUXT_PRIVATE_RESEND_API_KEY,
+      resend: true,
     },
   },
 
@@ -83,7 +83,7 @@ export default defineNuxtConfig({
     prerender: {
       autoSubfolderIndex: false,
       crawlLinks: true,
-      routes: ['/en', '/fr'],
+      routes: ['/en'],
     },
   },
 

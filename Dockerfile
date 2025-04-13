@@ -23,6 +23,10 @@ COPY --from=build /app/.output .output
 
 RUN apk update && apk add --no-cache curl
 
+
 EXPOSE 3000
 
-CMD ["node", ".output/server/index.mjs"]
+CMD ["sh", "-c", "export NUXT_PRIVATE_RESEND_API_KEY=$NUXT_PRIVATE_RESEND_API_KEY && \
+export NUXT_PRIVATE_EMAIL=\"$NUXT_PRIVATE_EMAIL\" && \
+node .output/server/index.mjs"]
+

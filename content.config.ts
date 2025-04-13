@@ -57,9 +57,9 @@ export const collections = {
     asSeoCollection({
       type: 'page',
       source: {
-        include: 'fr/**/*.md',
-        exclude: ['fr/articles/*.md'],
-        prefix: '/fr',
+        include: 'en/**/*.md',
+        exclude: ['en/articles/*.md'],
+        prefix: '/en',
       },
       schema: commonContentSchema,
     }),
@@ -78,8 +78,8 @@ export const collections = {
     asSeoCollection({
       type: 'page',
       source: {
-        include: 'fr/articles/*.md',
-        prefix: '/fr/articles',
+        include: 'en/articles/*.md',
+        prefix: '/en/articles',
       },
       schema: commonArticleSchema,
     }),
@@ -94,7 +94,7 @@ export const collections = {
   projects_fr: defineCollection(
     asSeoCollection({
       type: 'data',
-      source: 'fr/projects/*.json',
+      source: 'en/projects/*.json',
       schema: commonProjectSchema,
     }),
   ),
@@ -118,7 +118,7 @@ export const collections = {
   }),
   faq_fr: defineCollection({
     type: 'data',
-    source: 'fr/faq.json',
+    source: 'en/faq.json',
     schema: commonFaqSchema,
   }),
 }

@@ -7,7 +7,7 @@
       "questions": [
         {
           "label": "What services do you offer?",
-          "content": "I specialize in fullstack and Web3 development, offering decentralized web applications, smart contract development, and UI/UX design with Figma. I also explore beginner videography to creatively capture unique moments."
+          "content": "I specialize in fullstack and Web3 development, offering decentralized web applications and smart contract development. I also explore beginner videography to creatively capture unique moments."
         },
         {
           "label": "Can you teach me how to make a website?",
@@ -20,11 +20,11 @@
       "questions": [
         {
           "label": "How much does a project cost?",
-          "content": "The cost varies depending on complexity, features, and development time. My fullstack and decentralized solutions typically start at 2000€, with averages ranging between 3000€ and 10000€. For design or consulting projects, my rate is generally 450€ per day."
+          "content": "Project costs vary based on complexity, features, and development time. My fullstack and decentralized solutions typically range from $500 to $3,000."
         },
         {
           "label": "How does payment work for a project?",
-          "content": "I require a 40% deposit before starting a project, with the remaining 60% payable upon successful delivery. Payment options include bank transfer, PayPal, and other secure methods."
+          "content": "I require a 40% deposit before starting a project, with the remaining 60% payable upon successful delivery. Payment options include:\n\n- Paystack invoice: A secure online payment link.\n- Cryptocurrency: I accept various cryptocurrencies.\n- Grey app: A fintech platform that allows you to receive, send, exchange, and manage multiple currencies in one app."
         },
         {
           "label": "How long does a project take?",
@@ -45,7 +45,7 @@
         },
         {
           "label": "Hobbies outside of work?",
-          "content": "I'm a passionate racing and football fan who loves staying active at the gym. I also enjoy dabbling in videography to capture the excitement of races and matches, even though I'm still a beginner in that area."
+          "content": "I'm a passionate motor racing who loves not staying active at the gym. I also enjoy dabbling in videography to capture the excitement of races and matches and general outdoor events, even though I'm still a beginner in that area."
         }
       ]
     }
